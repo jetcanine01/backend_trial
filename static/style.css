@@ -1,0 +1,58 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Nunito:wght@800&display=swap'); */
+body{
+    background-image: url(/static/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 1590px;
+    font-size: x-large;
+    font-family:'Nunito', sans-serif; ;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 536px 10px 569px;
+}
+.container>input{
+    display: flex;
+    background: none;
+    border: 6px solid white;
+    outline: 0;
+    border-radius: 20px;
+    color: white;
+    padding: 25px 10px 10px 10px ;
+    margin: 25px 10px 10px 10px ;
+    font-size: x-large;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    /* align-content: center; */
+    /* text-align: center; */
+}
+button{
+    font-family:'Nunito', sans-serif; ;
+    font-size: x-large;
+    /* text-align: center; */
+    background: none;
+    padding: 10px 60px 10px 50px;
+    border: 5px solid white;
+    border-radius: 20px;
+    color: white;
+}
+button:hover{
+    color: black;
+    cursor: pointer;
+    background: white;
+    padding: 10px 80px 10px 70px;
+}
